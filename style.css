@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: General Sans Medium;
+}
+
+body,
+html {
+  background-image: linear-gradient(to right, #000, #fff);
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+}
+.centerDiv {
+  /* background-color: rebeccapurple; */
+  height: 50%;
+  width: 50%;
+}
+.buttons {
+  padding-top: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background: greenyellow;
+  border-radius: 2vw;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.h {
+  padding-top: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clrcode {
+  padding-top: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6vw;
+  cursor: pointer;
+}
